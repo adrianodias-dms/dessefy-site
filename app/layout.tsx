@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     url: 'https://dessefy.com.br/',
     title: 'Dessefy — Inteligência Operacional Sob Medida',
     description: 'Automação por IA e inteligência de dados para escritórios de advocacia que querem crescer com eficiência, controle e visão estratégica.',
-    images: [{ url: 'https://dessefy.com.br/images/logotipo-no-bg.png', width: 1200, height: 630 }],
+    images: [{ url: 'https://dessefy.com.br/images/logotipo-social.png', width: 1200, height: 630 }],
     locale: 'pt_BR',
     siteName: 'Dessefy',
   },
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Dessefy — Inteligência Operacional Sob Medida',
     description: 'Automação por IA e inteligência de dados para escritórios de advocacia.',
-    images: ['https://dessefy.com.br/images/logotipo-no-bg.png'],
+    images: ['https://dessefy.com.br/images/logotipo-social.png'],
   },
 }
 
@@ -59,7 +59,7 @@ const structuredData = {
   '@type': 'Organization',
   name: 'Dessefy',
   url: 'https://dessefy.com.br',
-  logo: 'https://dessefy.com.br/images/logotipo-no-bg.png',
+  logo: 'https://dessefy.com.br/images/logotipo-social.png',
   description: 'Inteligência operacional sob medida para escritórios de advocacia — combinando automação por IA com profundidade técnica e visão estratégica de negócio.',
   email: 'contato@dessefy.com.br',
   foundingDate: '2024',

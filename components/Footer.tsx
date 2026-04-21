@@ -15,9 +15,6 @@ export default function Footer() {
           </p>
           <nav className="footer-links" aria-label="Links do rodapé">
             <a href="mailto:contato@dessefy.com.br">contato@dessefy.com.br</a>
-            <a href="https://dessefy.com.br" target="_blank" rel="noopener noreferrer">
-              dessefy.com.br
-            </a>
           </nav>
         </div>
       </div>

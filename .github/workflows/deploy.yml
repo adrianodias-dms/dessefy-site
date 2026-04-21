@@ -5,6 +5,7 @@ on:
     branches:
       - main
 
+# Força cloudflare/wrangler-action (ainda node20) a rodar em Node 24
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -12,9 +13,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: '24'
           cache: 'npm'

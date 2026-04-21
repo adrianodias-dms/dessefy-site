@@ -28,28 +28,55 @@ export default function WhyDessefy() {
 
           <div className="why-list reveal d2">
             <div className="why-item">
-              <div className="why-icon" aria-hidden="true">✂️</div>
+              <div className="why-icon">
+                {/* Scissors */}
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/>
+                  <line x1="20" y1="4" x2="8.12" y2="15.88"/>
+                  <line x1="14.47" y1="14.48" x2="20" y2="20"/>
+                  <line x1="8.12" y1="8.12" x2="12" y2="12"/>
+                </svg>
+              </div>
               <div className="why-item-text">
                 <h4>Tailormade, não genérico</h4>
                 <p>Cada solução é construída para o perfil do escritório — não um produto adaptado às pressas.</p>
               </div>
             </div>
             <div className="why-item">
-              <div className="why-icon" aria-hidden="true">🎯</div>
+              <div className="why-icon">
+                {/* Target */}
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"/>
+                  <circle cx="12" cy="12" r="6"/>
+                  <circle cx="12" cy="12" r="2"/>
+                </svg>
+              </div>
               <div className="why-item-text">
                 <h4>Foco em resultado, não em feature</h4>
                 <p>Definimos métricas de impacto antes de começar. Entregamos o que muda o negócio.</p>
               </div>
             </div>
             <div className="why-item">
-              <div className="why-icon" aria-hidden="true">🔒</div>
+              <div className="why-icon">
+                {/* Shield */}
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                </svg>
+              </div>
               <div className="why-item-text">
                 <h4>Camada sobre o que já existe</h4>
                 <p>Sem migração, sem ruptura. Inteligência sobre os sistemas que o escritório já usa.</p>
               </div>
             </div>
             <div className="why-item">
-              <div className="why-icon" aria-hidden="true">🔭</div>
+              <div className="why-icon">
+                {/* Layers */}
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                  <polyline points="2 17 12 22 22 17"/>
+                  <polyline points="2 12 12 17 22 12"/>
+                </svg>
+              </div>
               <div className="why-item-text">
                 <h4>Visão integrada de negócio</h4>
                 <p>Operação, estratégia e performance na mesma solução — diferencial exclusivo do ecossistema DMS.</p>

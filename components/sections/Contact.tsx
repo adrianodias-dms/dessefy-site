@@ -2,15 +2,13 @@ export default function Contact() {
   return (
     <section id="contato" className="section" aria-labelledby="cta-heading">
       <div className="container">
-
         <div className="cta-box reveal">
           <h2 id="cta-heading">
-            Vamos conversar sobre<br />
-            <span className="gradient-text">o seu escritório.</span>
+            Vamos conversar sobre
+            <br />
+            <span className="gradient-text">o seu escritório</span>
           </h2>
-          <p className="cta-sub">
-            Um diagnóstico gratuito para mapear onde a IA pode gerar mais impacto no seu escritório hoje.
-          </p>
+          <p className="cta-sub">Um diagnóstico gratuito para mapear onde a IA pode gerar mais impacto no seu escritório hoje.</p>
           <a href="mailto:contato@dessefy.com.br" className="cta-email">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
@@ -30,7 +28,6 @@ export default function Contact() {
             </a>
           </div>
         </div>
-
       </div>
     </section>
   )

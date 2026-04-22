@@ -15,14 +15,12 @@ export default function Hero() {
           </div>
 
           <h1 className="hero-title">
-            Inteligência operacional<br />
-            <span className="gradient-text">sob medida.</span>
+            Inteligência operacional
+            <br />
+            <span className="gradient-text">sob medida</span>
           </h1>
 
-          <p className="hero-sub">
-            Dessefy entrega automação por IA e inteligência de dados para escritórios de
-            advocacia que querem crescer com eficiência, controle e visão estratégica.
-          </p>
+          <p className="hero-sub">Dessefy entrega automação por IA e inteligência de dados para escritórios de advocacia que querem crescer com eficiência, controle e visão estratégica.</p>
 
           <div className="hero-actions">
             <a href="#contato" className="btn btn-primary">

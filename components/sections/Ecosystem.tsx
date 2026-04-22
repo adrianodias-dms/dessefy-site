@@ -2,16 +2,14 @@ export default function Ecosystem() {
   return (
     <section id="ecossistema" className="section" aria-labelledby="eco-heading">
       <div className="container">
-
         <div className="eco-intro reveal">
           <span className="section-eyebrow">O Ecossistema</span>
           <h2 className="section-title" id="eco-heading">
-            Três pilares,<br />
-            <span className="gradient-text">uma inteligência integrada.</span>
+            Três pilares,
+            <br />
+            <span className="gradient-text">uma inteligência integrada</span>
           </h2>
-          <p className="section-sub">
-            A força da Dessefy vem da sinergia entre expertise jurídica, visão de negócio e capacidade técnica.
-          </p>
+          <p className="section-sub">A força da Dessefy vem da sinergia entre expertise jurídica, visão de negócio e capacidade técnica.</p>
         </div>
 
         <div className="eco-grid">
@@ -34,7 +32,6 @@ export default function Ecosystem() {
             <p>Consultoria integrada em eficiência, estrutura societária e inovação. Estrutura o modelo, o go-to-market e a estratégia de crescimento da Dessefy.</p>
           </div>
         </div>
-
       </div>
     </section>
   )
